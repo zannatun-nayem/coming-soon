@@ -1,0 +1,97 @@
+.home-area {
+  height: 100vh;
+  width: 100%;
+  position: relative;
+  background-image: url(../bg/1.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  &:after {
+    position: absolute;
+    content: "";
+    left: 0;
+    bottom: 0;
+    height: 100px;
+    width: 100%;
+    opacity: 0.25;
+    background-image: url(../bg/svg.png);
+    z-index: 99;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+  }
+
+  .home-content {
+    position: absolute;
+    padding: 0px 0px;
+    background-color: rgba($theme-color-bg, 0.4);
+    height: 100%;
+    width: 100%;
+    z-index: 99;
+    .home-content2 {
+      height: 100vh;
+      .home-title {
+        h1 {
+          font-family: "Poppins", sans-serif;
+          color: $theme-color-white;
+          font-weight: 700;
+          margin: 20px 10px 15px 10px;
+          font-size: 45px;
+        }
+
+        p {
+          font-size: 30px;
+          font-weight: 800;
+          color: $theme-color-white;
+          background: $theme-color-one;
+          display: inline;
+          padding: 10px 10px;
+          border-radius: 5px;
+        }
+      }
+      .notification {
+        font-size: 25px;
+        font-weight: 400;
+        color: $theme-color-white;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 2px;
+        p {
+          margin-bottom: unset;
+        }
+      }
+      .notify-form {
+        width: 40%;
+        .input-group {
+          .form-control {
+            &:focus {
+              box-shadow: unset;
+              boarder-color: unset;
+            }
+          }
+          button {
+            border-top-right-radius: 5px !important;
+            border-bottom-right-radius: 5px !important;
+            padding: 15px 20px;
+            background: $theme-color-one;
+            border: 2px solid $theme-color-one;
+            color: $theme-color-white;
+          }
+        }
+      }
+    }
+  }
+}
+
+footer {
+  position: absolute;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  left: 0;
+  bottom: 0;
+  color: $theme-color-white;
+  z-index: 100;
+  font-size: 13px;
+}

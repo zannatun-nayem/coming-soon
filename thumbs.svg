@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="80" height="80" viewBox="0 0 80 80">
+  <defs>
+    <clipPath id="clip-Custom_Size_1">
+      <rect width="80" height="80"/>
+    </clipPath>
+  </defs>
+  <g id="Custom_Size_1" data-name="Custom Size – 1" clip-path="url(#clip-Custom_Size_1)">
+    <rect width="80" height="80" fill="rgba(9,74,255,0.7)"/>
+    <g id="Ellipse_1" data-name="Ellipse 1" transform="translate(-27 65)" fill="#fff" stroke="#707070" stroke-width="1" opacity="0.59">
+      <ellipse cx="67.5" cy="67" rx="67.5" ry="67" stroke="none"/>
+      <ellipse cx="67.5" cy="67" rx="67" ry="66.5" fill="none"/>
+    </g>
+    <text id="Venire" transform="translate(11 42)" fill="#fff" font-size="20" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="0">Venire</tspan></text>
+  </g>
+</svg>

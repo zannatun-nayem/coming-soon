@@ -1,0 +1,205 @@
+@media (max-width: 575.98px) {
+  .nav_bar {
+    .nav-style {
+      .nav-item {
+        background-color: $theme-color-one;
+        font-size: 15px;
+        margin: 2px;
+        .nav-link {
+          color: $theme-color-white;
+        }
+      }
+    }
+    .nav-social-icon {
+      ul {
+        display: none;
+        li {
+          display: none;
+          a {
+            display: none;
+          }
+        }
+      }
+    }
+
+    .modal-title {
+      font-size: 20px;
+      margin: auto;
+    }
+
+    .about-box-icon {
+      i {
+        font-size: 25px;
+      }
+    }
+
+    .modal-body {
+      .contact-box-icon {
+        i {
+          font-size: 25px;
+        }
+      }
+
+      form {
+        .form-group {
+          padding: 10px;
+          margin: 10px;
+          input {
+            padding: 10px;
+          }
+          button {
+            .btn {
+              padding: 10px;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .home-area {
+    .home-content {
+      .home-content {
+        .home-title {
+          h1 {
+            font-size: 25px;
+          }
+
+          p {
+            font-size: 15px;
+          }
+        }
+        .notification {
+          font-size: 15px;
+        }
+        .notify-form {
+          margin-left: auto;
+          margin-right: auto;
+          width: 80%;
+          .input-group {
+            &::placeholder {
+              font-size: 10px;
+            }
+            button {
+              padding: 5px 5px;
+            }
+          }
+        }
+        .counter {
+          padding-right: 55px;
+          li {
+            font-size: 7px;
+
+            padding: 7px;
+
+            span {
+              font-size: 20px;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .choose {
+    .colors {
+      .theme {
+        ul {
+          li {
+            width: 25px;
+            height: 25px;
+          }
+        }
+      }
+    }
+    .themes-btn {
+      padding: 23px 23px 23px 23px;
+    }
+  }
+}
+
+@media (max-width: 767.98px) {
+  .nav_bar {
+    .nav-style {
+      .nav-item {
+        background-color: $theme-color-one;
+        font-size: 20px;
+        margin: 2px;
+        .nav-link {
+          color: $theme-color-white;
+        }
+      }
+    }
+    .nav-social-icon {
+      ul {
+        display: none;
+        li {
+          display: none;
+          a {
+            display: none;
+          }
+        }
+      }
+    }
+  }
+
+  .home-area {
+    .home-content {
+      .home-content2 {
+        .home-title {
+          h1 {
+            font-size: 30px;
+          }
+
+          p {
+            font-size: 20px;
+          }
+        }
+        .notification {
+          font-size: 20px;
+        }
+        .notify-form {
+          margin-left: auto;
+          margin-right: auto;
+          width: 80%;
+          .input-group {
+            &::placeholder {
+              font-size: 10px;
+            }
+            button {
+              padding: 5px 5px;
+            }
+          }
+        }
+        .counter {
+          padding-right: 55px;
+          li {
+            font-size: 7px;
+
+            padding: 7px;
+
+            span {
+              font-size: 25px;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .choose {
+    .colors {
+      .theme {
+        ul {
+          li {
+            width: 25px;
+            height: 25px;
+          }
+        }
+      }
+    }
+    .themes-btn {
+      padding: 23px 23px 23px 23px;
+    }
+  }
+}

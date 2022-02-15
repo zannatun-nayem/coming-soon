@@ -1,0 +1,55 @@
+ Title :Venire| Bootstrap 5 HTML5 coming soon Landing Page Template
+
+ Keyword: multipurpose, company, website template, bootstrap template, landing page,Coming soon,Underconstruction.
+
+
+
+<p> Venire is a Responsive & Creative HTML5/CSS3 Landing page Template based on Bootstrap for coming soon Landing Page .Venire is support in all types of Devices. Everyone can Use and Customize the Code who has some basic knowledge about HTML and CSS. You can represent your company in underconstruction mood by this landing page. </p>
+
+<p> Venire is suitable for all types of Underconstruction company who is looking for coming soon landing page. </p>
+
+
+<h3> Features of Venire:</h3>
+<ul>
+    <li>W3c Valid Markup HTML</li>
+    <li>Fully Responsive on any Device</li>
+    <li> Built with Bootstrap 5</li>
+    <li>Clean, Modern & Beautiful Design</li>
+    <li>Cross-bowser Compatible with Edge, IE11+, Firefox, Safari, Opera, Chrome</li>
+    <li>Google Fonts</li>
+    <li>Font Awesome 5.15.2</li>
+    <li>Bootstrap Components Compatible</li>
+    <li>Well Commented Code</li>
+    <li>Well Documentation</li>
+    <li>Easy Customization</li>
+    <li>Quick Support</li>
+</ul>
+
+<h3> Files Included: </h3>
+<ul>
+    <li> HTML Files</li>
+    <li> Included Font Awesome </li>
+    <li>Supporting CSS,SASS, JS files</li>
+    <li>Documentation in HTML</li>
+</ul>
+
+<h3> Font Used:</h3>
+<ul>
+    <li><a href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap">Poppins</a></li>
+</ul>
+
+<h3>Icon Used:</h3>
+<ul>
+    <li><a href="https://fontawesome.com/icons?d=gallery"> Font Awesome 5.15.2</a></li>
+</ul>
+
+<h3>Credits</h3>
+<ul>
+    <li><a href="https://getbootstrap.com/">Twitter Bootstrap</a></li>
+    <li><a href="https://www.google.com/fonts">Google Fonts</a></li>
+    <li><a href="https://fontawesome.com/icons?d=gallery">Font Awesome 5.15.2 </a></li>
+</ul>
+
+<h3>Support</h3>
+<p> If you have any queries or need any special customizing or help for using this template please feel free to contact us via info@theThemely.com. If you have a moment, please rate our item, We will love it very much! Thank you
+</p>

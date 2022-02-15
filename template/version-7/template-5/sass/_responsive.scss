@@ -1,0 +1,220 @@
+@media (max-width: 1199.98px) {
+  .home-area {
+    .home-content {
+      .contact-form {
+        padding: 13px 5px 13px 5px;
+      }
+    }
+  }
+}
+@media (max-width: 991.98px) {
+  .nav_bar {
+    .nav-style {
+      .nav-item {
+        background-color: $theme-color-one;
+        font-size: 20px;
+        margin: 2px;
+        .nav-link {
+          text-align: center;
+          color: $theme-color-white;
+        }
+      }
+    }
+  }
+
+  .home-area {
+    .home-content {
+      .home-content2 {
+        .home-title {
+          h1 {
+            font-size: 40px;
+          }
+
+          p {
+            font-size: 25px;
+          }
+        }
+        .notification {
+          font-size: 20px;
+        }
+        .notify-form {
+          margin-left: auto;
+          margin-right: auto;
+          width: 80%;
+          .input-group {
+            &::placeholder {
+              font-size: 10px;
+            }
+            button {
+              padding: 8px 8px;
+            }
+          }
+        }
+        .counter {
+          margin-left: auto;
+          margin-right: auto;
+          li {
+            text-align: center;
+            font-size: 12px;
+
+            padding: 12px;
+
+            span {
+              font-size: 30px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 767.98px) {
+  .nav_bar {
+    .nav-style {
+      .nav-item {
+        background-color: $theme-color-one;
+        font-size: 20px;
+        margin: 2px;
+        .nav-link {
+          text-align: center;
+          color: $theme-color-white;
+        }
+      }
+    }
+    .nav-social-icon {
+      ul {
+        display: none;
+        li {
+          display: none;
+          a {
+            display: none;
+          }
+        }
+      }
+    }
+  }
+
+  .home-area {
+    .home-content {
+      .home-content2 {
+        .home-title {
+          h1 {
+            font-size: 40px;
+          }
+
+          p {
+            font-size: 25px;
+          }
+        }
+        .notification {
+          font-size: 20px;
+        }
+        .notify-form {
+          margin-left: auto;
+          width: 80%;
+          .input-group {
+            &::placeholder {
+              font-size: 10px;
+            }
+            button {
+              padding: 5px 5px;
+            }
+          }
+        }
+        .counter {
+          text-align: center;
+          li {
+            text-align: center;
+            font-size: 10px;
+
+            padding: 10px;
+
+            span {
+              font-size: 25px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 575.98px) {
+  .nav_bar {
+    .nav-style {
+      .nav-item {
+        background-color: $theme-color-one;
+        font-size: 18px;
+        margin: 2px;
+        .nav-link {
+          text-align: center;
+          color: $theme-color-white;
+        }
+      }
+    }
+    .modal-title {
+      font-size: 20px;
+      margin: auto;
+    }
+
+    .about-box-icon {
+      i {
+        font-size: 25px;
+      }
+    }
+    .modal-title {
+      font-size: 20px;
+      margin: auto;
+    }
+  }
+
+  .home-area {
+    .home-content {
+      .home-content2 {
+        .home-title {
+          h1 {
+            font-size: 25px;
+          }
+
+          p {
+            font-size: 15px;
+          }
+        }
+        .notification {
+          font-size: 15px;
+        }
+        .notify-form {
+          margin-left: auto;
+          margin-right: auto;
+          width: 80%;
+          .input-group {
+            &::placeholder {
+              font-size: 10px;
+            }
+            button {
+              padding: 5px 5px;
+            }
+          }
+        }
+
+        .counter {
+          text-align: center;
+          li {
+            text-align: center;
+            font-size: 7px;
+
+            padding: 7px;
+
+            span {
+              font-size: 20px;
+            }
+          }
+        }
+      }
+    }
+  }
+  footer {
+    margin-top: 20px;
+    font-size: 10px;
+  }
+}

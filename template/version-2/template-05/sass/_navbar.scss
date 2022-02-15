@@ -1,0 +1,87 @@
+.nav_bar {
+  background-color: transparent;
+  position: fixed;
+  z-index: 10001;
+  top: 0;
+  left: 0;
+  width: 100%;
+  .navbar-toggler {
+    .navbar-toggler-icon {
+      color: $theme-color-white;
+    }
+  }
+
+  .nav-style {
+    .nav-item {
+      font-size: 20px;
+      margin: 2px;
+      .nav-link {
+        color: $theme-color-white;
+      }
+    }
+  }
+  .nav-social-icon {
+    ul {
+      margin: 0px;
+      padding: 8px 16px;
+      li {
+        display: inline;
+        font-size: 20px;
+        a {
+          padding: 4px 8px;
+          color: $theme-color-white;
+        }
+      }
+    }
+  }
+  .modal-title {
+    font-size: 40px;
+    margin: auto;
+  }
+
+  .about-box-icon {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    i {
+      margin-bottom: 12px;
+      color: $theme-color-bg;
+      font-size: 35px;
+    }
+  }
+
+  .modal-body {
+    .contact-box-icon {
+      margin: auto;
+
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      i {
+        margin-bottom: 12px;
+        color: $theme-color-bg;
+        font-size: 35px;
+      }
+    }
+
+    form {
+      .form-group {
+        padding: 10px;
+        margin: 10px;
+        input {
+          padding: 10px;
+        }
+        button {
+          width: 100%;
+          background: $theme-color-one;
+          color: $theme-color-white;
+          border: transparent;
+          .btn {
+            padding: 10px;
+          }
+        }
+      }
+    }
+  }
+}

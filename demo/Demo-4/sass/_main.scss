@@ -1,0 +1,103 @@
+.home-area {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background-image: url(../bg/1.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  .home-content {
+    position: absolute;
+    width: 100%;
+    background-color: rgba($theme-color-bg, 0.4);
+
+    .home-content2 {
+      height: 100vh;
+      width: 100%;
+      .home-title {
+        h1 {
+          font-family: "Poppins", sans-serif;
+          color: $theme-color-white;
+          font-weight: 700;
+          margin: 25px 0px 15px 0px;
+          font-size: 35px;
+        }
+
+        p {
+          font-size: 30px;
+          font-weight: 800;
+          color: $theme-color-white;
+          background: $theme-color-one;
+          display: inline;
+          padding: 10px 10px;
+          border-radius: 5px;
+        }
+      }
+      .notification {
+        font-size: 20px;
+        font-weight: 400;
+        color: $theme-color-white;
+        margin-bottom: 2px;
+        p {
+          margin-bottom: unset;
+        }
+      }
+      .notify-form {
+        width: 65%;
+        .input-group {
+          button {
+            border-top-right-radius: 5px !important;
+            border-bottom-right-radius: 5px !important;
+            padding: 15px 20px;
+            background: $theme-color-one;
+            border: 2px solid transparent;
+            color: $theme-color-white;
+          }
+        }
+      }
+    }
+  }
+  .contact-form {
+    z-index: 5;
+    padding: 30px 10px 30px 10px;
+    border-radius: 5px;
+    h3 {
+      font-size: 25px;
+      font-weight: 700;
+    }
+    p {
+      font-size: 15px;
+      font-weight: 400;
+    }
+    form {
+      .form-group {
+        padding: 10px;
+        margin: 10px;
+        input {
+          padding: 10px;
+        }
+        button {
+          width: 100%;
+          background: $theme-color-one;
+          color: $theme-color-white;
+          border: transparent;
+          .btn {
+            padding: 10px;
+          }
+        }
+      }
+    }
+  }
+}
+footer {
+  position: absolute;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  left: 0;
+  bottom: 0;
+  color: $theme-color-white;
+  z-index: 99;
+  font-size: 13px;
+}

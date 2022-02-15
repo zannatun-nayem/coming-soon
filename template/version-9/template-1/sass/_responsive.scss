@@ -1,0 +1,30 @@
+@media (max-width: 575.98px) {
+  .home-area {
+    .home-content {
+      max-height: 700px;
+
+      .main-class {
+        .home-title {
+          h1 {
+            font-size: 20px;
+          }
+
+          p {
+            font-size: 15px;
+          }
+        }
+        .notification {
+          font-size: 15px;
+        }
+        .notify-form {
+          width: 90%;
+          .input-group {
+            button {
+              padding: 5px 5px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
